@@ -4223,6 +4223,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: none;
   }
 }
+@media only screen (min-width: 600px ){
+    .logo > h1 > a >img{
+      width: 300px;
+      height: 75px;
+  }
+}
+
+
+
 .navbar-nav {
   margin: 7.5px -15px;
 }
@@ -4232,6 +4241,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
 }
 @media (max-width: 767px) {
+  .logo > h1 > a >img {
+    width: 150px;
+    height: 40px;
+  }
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;

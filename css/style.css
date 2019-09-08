@@ -38,10 +38,6 @@ body a:hover,body a:focus{
 }
 /*-- banner --*/
 
-.logo > h1 > a >img{
-    width: 300px;
-    height: 75px;
-}
 
 .banner {
     background:url(../images/1.jpg)no-repeat center 0px;
